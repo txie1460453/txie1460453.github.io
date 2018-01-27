@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+
+<h2>Job Application (Drug Dealer)</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Silk Road Account Information</legend>
+		<div class="field">
+			<label>Username:</label> 
+			<input type="text" name="username">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Contact Information</legend>
+		<div class="field">
+			<label>Street Name:</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label>Commonly Found At:</label> 
+            <input type="text" name="location1">
+            <input type="text" name="location2">
+            <input type="text" name="location3">
+        </div>
+        <div class="field">
+                <label>Email Address:</label> 
+                <input type="text" name="email">
+        </div>
+        <div class="field">
+                <label>Phone Number:</label> 
+                <input type="text" name="number">
+        </div>
+        <div class="field">
+            <label>Preferred Method of Contact:</label>
+            <input type="radio" name="answer" value="inperson">In Person
+            <input type="radio" name="answer" value="email">Email
+            <input type="radio" name="answer" value="call">Call
+            <input type="radio" name="answer" value="text">Text
+        </div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Product and Service Information:</legend>
+		<div class="field">
+			<label>Where do you get your product from?</label> 
+			<input type="radio" name="legal" value="supplier">Supplier in State
+            <input type="radio" name="legal" value="online">Online
+            <input type="radio" name="legal" value="both">Both
+        </div>
+        <div class="field">
+            <label>Products Available:</label> 
+            <ul>
+                <input type="checkbox" name="drug" value="adderall">Adderall
+                <input type="checkbox" name="drug" value="steroids">Anabolic Steroids
+                <input type="checkbox" name="drug" value="bathsalts">Bath Salts                    <input type="checkbox" name="drug" value="cocaine">Cocaine
+                <input type="checkbox" name="drug" value="crack">Crack
+                <input type="checkbox" name="drug" value="dmt">DMT
+                <input type="checkbox" name="drug" value="heroin">Heroin
+                <br>
+                <input type="checkbox" name="drug" value="ketamine">Ketamine
+                <input type="checkbox" name="drug" value="lsd">LSD
+                <input type="checkbox" name="drug" value="marijuana">Marijuana
+                <input type="checkbox" name="drug" value="mdma">MDMA
+                <input type="checkbox" name="drug" value="meth">Methamphetamine  
+                <input type="checkbox" name="drug" value="shrooms">Shrooms
+                <input type="checkbox" name="drug" value="xanax">Xanax           
+            </ul>
+        </div>
+        <div class="field">
+            <label>Has your product been tested?</label> 
+            <input type="radio" name="legal" value="yes">Yes
+            <input type="radio" name="legal" value="no">No
+         </div>
+        <div class="field">
+            <label>Primarily Delivers to:</label> 
+            <select name="cities">
+                <option value="" selected="true">Choose a City</option>
+                <option value="BE">Bellevue</option>
+                <option value="BO">Bothell</option>
+                <option value="ED">Edmonds</option>
+                <option value="EV">Everett</option>
+                <option value="FW">Federal Way</option>
+                <option value="IS">Issaquah</option>
+                <option value="KE">Kent</option>
+                <option value="KI">Kirkland</option>
+                <option value="LN">Lynnwood</option>
+                <option value="MI">Mercer Island</option>
+                <option value="RD">Redmond</option>
+                <option value="RN">Renton</option>
+                <option value="SA">Sammamish</option>
+                <option value="SE">Seattle</option>
+                <option value="SL">Shoreline</option>
+                <option value="TA">Tacoma</option>
+                <option value="TU">Tukwila</option>
+            </select>
+        </div>
+        <div class="field">
+			<label>When are you available for deliveries? (check all that apply)</label>
+			<li>
+				<input type="checkbox" name="time" value="morning">Morning (8:00am - 12:00pm)
+				<li><input type="checkbox" name="time" value="afternoon">Afternoon (12:00pm - 4:00pm)</li>
+				<li><input type="checkbox" name="time" value="evening">Evening (4:00pm - 7:00pm)</li>
+                <li><input type="checkbox" name="time" value="night">Night (7:00pm - 10:00pm)</li>
+                <li><input type="checkbox" name="time" value="latenight">Late Night (10:00pm - 2:00am)</li>
+            </li>
+		</div>
+	</fieldset>
+
+    <fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+            <label>What makes you a qualified drug dealer, and why is your product superior to what is currently on the market?</label><br>
+			<textarea name="qualified" rows="10" cols="120"></textarea>
+		</div>
+		<div class="field">
+            <label>Describe a problem you had with a customer and how you resolved it.</label><br>
+            <label>Was physical violence necessary, and if so, are you capable of holding your own to protect the product?</label>
+			<textarea name="project" rows="10" cols="120"></textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
+
